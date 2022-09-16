@@ -1,5 +1,4 @@
 import React from 'react';
-import Helmet from "helmet"
 
 class Home extends React.Component {
     render() {
@@ -1134,7 +1133,7 @@ class Home extends React.Component {
     </div>
 
     <div className="rightbar-overlay"></div>
-<Helmet>
+    
 <script src="/folder/public/assets/libs/jquery/jquery.min.js"></script>
 <script src="/folder/public/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/folder/public/assets/libs/metismenu/metisMenu.min.js"></script>
@@ -1152,7 +1151,6 @@ class Home extends React.Component {
 <script src="/folder/public/assets/js/pages/dashboard.init.js"></script>
 
 <script src="/folder/public/assets/js/app.js"></script>
-</Helmet>
         </div>
     ) ;
     }
